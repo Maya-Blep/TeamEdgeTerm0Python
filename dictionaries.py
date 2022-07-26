@@ -52,9 +52,10 @@ dictionary = {
 }
 
 dictionary["Kid(s)"] = 1
-dictionary["age"] = 2
+dictionary["age"] = 26
+dictionary["sibling(s)"] = 2
 print(f"{dictionary['name']} is {dictionary['age']}")
-
+print(f"{dictionary['name']} has {dictionary['sibling(s)']}")
 
 ########################################################################## #/
 

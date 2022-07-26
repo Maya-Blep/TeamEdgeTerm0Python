@@ -90,6 +90,9 @@ fruit = ['apple' , 'plum' , 'blueberry' , 'peach' , 'lime' , 'dragon fruit' , 'l
 #-->TODO Write function to prompt the user to "Guess" if an element is present in your list. Store their response in a variable. 
 #   --> If their guess is in your list, print CONGRATULATIONS!
 
+def fruit():
+    print(fruit)
+
 fruit = input('Try to guess my favorite fruits >>')
 if fruit in fruit:
     print("Yess I love that fruit!")
@@ -98,7 +101,7 @@ else:
 
 #-->TODO Call your function.
 
-fruit()
+print(fruit)
 
 print("------------------- CHALLENGE 5 : Nested ------------------")
 
@@ -123,6 +126,6 @@ def venti_word():
         for b in grand_word:
             print(" - " + b)
         
-venti_word()
+print(venti_word)
 
 #-->CHALLENGE: Let the user know which word is the shortest one!

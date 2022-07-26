@@ -14,9 +14,9 @@
 
 active = True
 shopping_list=[]
-print("Welcome to Shopping List!")
+print("Welcome to Shopping List! 🌟")
 
-welcome_message = "Hi! I'm your shopping assistant. Let me take your order. \n You can type 'add milk' to add milk to your shopping list. \n or you can type 'remove milk' to remove it. \n"
+welcome_message = "Hi! I'm your shopping assistant, Maya! Let me take your order. 😚 \n You can type 'add milk' to add milk to your shopping list. \n or you can type 'remove milk' to remove it. \n"
 
 print(welcome_message)
 
@@ -26,7 +26,7 @@ print(welcome_message)
 
 def prompt_user():
     
-    reply = input("What do you want to add or remove?  >>  ")
+    reply = input("What do you want to add or remove? 🥰 >>  ")
 
     return reply
 
