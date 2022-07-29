@@ -18,7 +18,7 @@ person = Player(name, [])
 art_room = Room("Art Room", ["Box Cutter"], "Fourth Floor", "The art room was painted with stains upon stains of dry paint and broken sculptures. Around you was useless paint brushes, and box cutters. Maybe you can pick the box cutters up for protection 😲") 
 hallway1 = Room("Hallway", [], "Fourth Floor", "You're now in the hallway! Its completely deserted, aside from the broken windows. Most of the classroom doors were borded up by the teachers so students in the classrooms couldn't escape, but you were lucky to have woken up before the teachers came back to barricade the door you were at. There's a staircase, the art room, and the math room. Where would you like to go? 🤔\n")
 math_room = Room("Math Room", [], "Fourth Floor", "As you stepped in the classroom, you were face to face, with your math teacher, holding a bat. Your attempts to scurry out failed, as a teacher had held the door closed, leaving you to await your death. Shouldn't have trusted going into the math room 😬")
-closet = Room("Closet", [], "Fourth Floor", "You stay in the closet, hoping that you could simply wait it out. Unfortunately, your heavy breathing caused a teacher, the science teacher, to hear your. Maybe the closet wasn't the best option. 🤭")
+closet = Room("Closet", [], "Fourth Floor", "You stay in the closet, hoping that you could simply wait it out. Unfortunately, your clumsiness caused a bunch of brooms and buckets to fall and cause loud noises, causing a teacher, the science teacher, to hear your. Maybe the closet wasn't the best option. 🤭")
 windows = Room("Windows", [], "Fourth Floor", "You're literally on the fourth floor. Why on earth would you think that you would survive that fall 🤨? Its too late now, since you're already dead 😂.")
 suicide = Room("Art Room", [], "Fourth Floor", "Seems like staying in here for too long wasn't the best option, as you began to go deep in thought about the situation, becoming more and more depressed that you might not be able to live the way you used to. Falling into despair, you had no choice, but to use the box cutter on yourself. How unfortunate 😢")
 roof = Room ("Roof", [], "Roof", "Yikes. Seems like the roof wasn't the best choice to pick, as most teachers suspected that students would go there for sos. You were swarmed by teachers, getting pushed off the roof. Yikers.")
@@ -182,3 +182,5 @@ elif location == "classroom exit":
                     elif location == "gymnasium":
                         print(gymnasium.description)
                         print("GAME OVER. Ending 10 out of 12, TORTURE 😩")
+else:
+    print("That's not a decision! Unfortunately, you just caused yourself to get killed. Sorry, please play again :C")
